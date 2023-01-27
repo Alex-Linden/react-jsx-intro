@@ -8,6 +8,12 @@
  *
  */
 
-function Tweet({username, name, date, message}){
-
+function Tweet({ username, name, date, message }) {
+  return (
+    <div>
+      <h1>{username}</h1>
+      <h3>{name} {date}</h3>
+      <p>{message}</p>
+    </div>
+  );
 }
