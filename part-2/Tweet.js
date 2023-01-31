@@ -11,8 +11,9 @@
 function Tweet({ username, name, date, message }) {
   return (
     <div>
-      <h1>{username}</h1>
-      <h3>{name} {date}</h3>
+      <span>{name}</span>
+      <span className="username">{username}</span>
+      <span className="date">{date}</span>
       <p>{message}</p>
     </div>
   );
